@@ -1,0 +1,40 @@
+/* Overall website content*/
+
+.navbar-brand {
+	font-size: 35px;
+}
+
+
+.gap-right {
+	margin-right: 20px;
+}
+
+.img {
+	display: inline;
+	width: 150px;
+	height: 150px;
+}
+
+.row {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.desc_content {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	height: 40px; opacity: 10;
+	position: relative; 
+	top: -50px;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 20px;
+}
+
+.wrapper{
+    float: left;
+    position: relative;
+    
+ }
