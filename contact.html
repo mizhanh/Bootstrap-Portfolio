@@ -18,7 +18,7 @@
 
 <body>	
 
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<nav class="navbar navbar-default" role="navigation">
     	
     	<div class="container">
 					
@@ -61,7 +61,7 @@
         				</div>
 			
 						<!-- Forms section-->	
-						<form>
+						<form method="post" action="mailto:hanh.briggs@gmail.com">
   							<div class="form-group">
     							<label for="name">Name</label>
     							<input type="name" class="form-control" id="name" placeholder="John Smith">
@@ -72,13 +72,18 @@
     							<input type="email" class="form-control" id="exampleInputEmail1" placeholder="example@gmail.com">
   							</div>
 
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" class="form-control" id="subject" placeholder="Subject Title">
+                </div>
+
 							<div class="form-group"> <!-- Message input !-->
 								<label class="control-label " for="message_id">Message</label>
 								<textarea class="form-control" id="message_id" name="message" rows="10"></textarea>
 							</div>
   				
   							<div class="form-group"> <!-- Submit button !-->
-								<button class="btn btn-primary " name="submit" type="submit">Submit</button>
+								<button class="btn btn-primary " name="submit" type="submit" value="Send Email">Submit</button>
 							</div>
 						</form>
 					</div>
@@ -91,19 +96,19 @@
 			<div class="panel panel-default">						
   				<div class="panel-body">
 					<div class="page-header">
-          				<h4><strong>Connect With Me</strong></h4>
+          				<h3><strong>Connect With Me</strong></h3>
         			</div>
           					
           			<div class="row">
-          				<div class="col-xs-3">
+          				<div class="col-md-4">
           					<!--Link personal github page to github icon image and rotate when hover image-->
           					<a href="https://github.com/mizhanh"><img class="img-responsive" src="assets/images/social icon images/github-128.png" alt="GitHub"></a>
           				</div>
-          				<div class="col-xs-3">
+          				<div class="col-md-4">
           					<!--Link personal linkedin page to linkedin image and rotate when hover image-->
           					<a href="https://www.linkedin.com/in/hbriggs44122/"><img class="img-responsive" src="assets/images/social icon images/linkedin-128.png" alt="Linkedin"></a>
           				</div>
-          				<div class="col-xs-3">
+          				<div class="col-md-4">
           					<!--Link personal stack page to stack icon image and rotate when hover image-->
           					<a href="https://stackoverflow.com/users/8564605/mizhanh"><img class="img-responsive" src="assets/images/social icon images/stackoverflow-128.png" alt="Stack Overflow"></a>
           				</div>

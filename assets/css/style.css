@@ -1,30 +1,62 @@
 /* Overall website content*/
 
+body {
+	background-image: url(../images/lgrey062.jpg);
+	font-family: fantasy;
+}
+
+.navbar-header {
+	height: 75px;
+	padding: 10px;	
+}
+
+.navbar-right {
+	padding: 10px;
+}
+
 .navbar-brand {
-	font-size: 35px;
+	font-size: 50px;	
 }
 
 
 .gap-right {
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 .img {
 	display: inline;
-	width: 150px;
-	height: 150px;
+	width: 110px;
+	height: 120px;
+	margin: 10px;
+}
+
+.panel-body{
+	background-color: #bbc3c7;
+}
+
+h2, h3 {
+	margin-left: 5px;
+	font-family: fantasy;
+	font-weight: bold;	
+}
+
+p {
+	color: black;
+	line-height: 2.0;
+	font-size: 18px;
+	font-family: fantasy;
 }
 
 .row {
-	padding-top: 20px;
+	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 
 .desc_content {
-	background-color: #4aaaa5;
-	color: #ffffff;
+	background-color: black;
+	color: white;
 	height: 40px; opacity: 10;
 	position: relative; 
 	top: -50px;
@@ -37,4 +69,9 @@
     float: left;
     position: relative;
     
+ }
+
+ li {
+ 	font-size: 20px;
+ 	font-family: fantasy;
  }
